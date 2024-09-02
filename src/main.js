@@ -6,10 +6,10 @@ const filterContainerElement = document.querySelector('.trip-controls__filters')
 const filterPresenter = new FiltersPresenter(filterContainerElement);
 filterPresenter.init();
 
-const tripEventsContainerEl = document.querySelector('.trip-events');
+const tripEventsContainerElement = document.querySelector('.trip-events');
 
-const sortListPresenter = new SortListPresenter(tripEventsContainerEl);
+const sortListPresenter = new SortListPresenter(tripEventsContainerElement);
 sortListPresenter.init();
 
-const tripEventsPresenter = new TripEventsPresenter(tripEventsContainerEl);
+const tripEventsPresenter = new TripEventsPresenter(tripEventsContainerElement);
 tripEventsPresenter.init();
